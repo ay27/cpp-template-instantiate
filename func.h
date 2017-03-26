@@ -11,6 +11,11 @@ namespace LibTest {
 
     template <typename value_type>
     value_type add(value_type a, value_type b);
+
+    template <typename value_type>
+    value_type sub(value_type a, value_type b) {
+        return a - b;
+    }
 }
 
 #endif //LIB_TEST_FUNC_H

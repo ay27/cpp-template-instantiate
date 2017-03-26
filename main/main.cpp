@@ -3,9 +3,11 @@
 //
 
 #include "../func.h"
+#include <stdio.h>
 
 int main() {
     LibTest::func();
-    double a = 10, b = 20;
+    int a = 10, b = 20;
     LibTest::add(a, b);
+    printf("%d\n", LibTest::sub(a, b));
 }

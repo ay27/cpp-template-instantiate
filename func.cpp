@@ -16,6 +16,6 @@ namespace LibTest {
         return a + b;
     }
 
-    template float add(float a, float b);
+    template float add<float>(float a, float b);
     template int add<int>(int a, int b);
 }
